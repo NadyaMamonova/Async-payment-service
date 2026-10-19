@@ -1,0 +1,10 @@
+PAYMENTS_EXCHANGE_NAME = "payments.events"
+PAYMENTS_NEW_ROUTING_KEY = "payments.new"
+PAYMENTS_QUEUE_NAME = "payments.new"
+
+PAYMENTS_DEAD_LETTER_EXCHANGE_NAME = "payments.dlx"
+PAYMENTS_DEAD_LETTER_ROUTING_KEY = "payments.dead"
+PAYMENTS_DEAD_LETTER_QUEUE_NAME = "payments.dlq"
+
+PROCESSING_ATTEMPT_HEADER = "x-processing-attempt"
+ORIGINAL_EVENT_ID_HEADER = "x-event-id"
